@@ -10,48 +10,48 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Tien Vu',
+  subtitle: 'I am a Full-Stack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'profile.png',
+  paragraphOne: "After graduation from San Jose State University in 2017, I became an accountant in Silicon Valley. My partner and I relocated to South Florida in 2019 so that she could attend medical school. Along with the move, I decided to pursue something different for myself. Even though I excelled in accounting, my passion has always been in tech. I completed Thinkful's coding bootcamp, and I am now seeking a new role as a Full-Stack Engineer.",
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/1AriRipcL6zxMwUjDRtIL9sEryuE1uKadrOANFQwv2d0/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'restaurant.png',
+    title: 'Restaurant Reservation',
+    info: "This application was developed as part of my capstone project for Thinkful's Flex Software Engineering course. It is a reservation and table manager to be used by a restaurant that allows tracking of reservations as well as seating tables. This application was made to meet the specifications laid out by user stories provided by Thinkful.",
+    info2: 'Skills used: JavaScript, React, React Router, Bootstrap/CSS, Node.js, Knex, PostgreSQL',
+    url: 'https://restaurant-reservation-app-five.vercel.app/dashboard',
+    repo: 'https://github.com/michaeltnvu/restaurant-reservation', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'pomodoro.png',
+    title: 'Pomodoro',
+    info: 'Timer application developed with adjustable work and break periods to help users study efficiently.',
+    info2: 'Skills used: JavaScript, React, React Hooks, Bootstrap',
+    url: 'https://pomodoro-pi-six.vercel.app/',
+    repo: 'https://github.com/michaeltnvu/project_pomodoro_timer', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'flashcard.png',
+    title: 'Flashcard-o-matic',
+    info: 'This is a front-end application of a flashcard studying app. Using a provided back-end API, the user can list, display, edit, and create study cards and/or deck of cards.',
+    info2: 'Skills used: JavaScript, React, React Router, React Hooks, and Bootstrap',
+    url: 'https://project-flashcard-app.vercel.app/',
+    repo: 'https://github.com/michaeltnvu/project_flashcard_app', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'vu.michaeltien@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'http://linkedin.com/in/vutien',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'http://github.com/michaeltnvu',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
