@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: "Tien Vu's Portfolio", // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: "After graduation from San Jose State University in 2017, I became an accountant in Silicon Valley. My partner and I relocated to South Florida in 2019 so that she could attend medical school. Along with the move, I decided to pursue something different for myself. Even though I excelled in accounting, my passion has always been in tech. I completed Thinkful's coding bootcamp, and I am now seeking a new role as a Full-Stack Engineer.",
+  paragraphOne: "After graduation from San Jose State University in 2017, I became an accountant in Silicon Valley. My partner and I relocated to South Florida in 2019 so that she could attend medical school. Along with the move, I decided to pursue something different for myself. Although I excelled in accounting, my passion has always been in tech. I completed Thinkful's coding bootcamp, and I am now seeking a new role as a Full-Stack Engineer.",
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://docs.google.com/document/d/1AriRipcL6zxMwUjDRtIL9sEryuE1uKadrOANFQwv2d0/edit?usp=sharing', // if no resume, the button will not show up
