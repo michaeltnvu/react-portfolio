@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: "After graduation from San Jose State University in 2017, I became an accountant in Silicon Valley. My partner and I relocated to South Florida in 2019 so that she could attend medical school. Along with the move, I decided to pursue something different for myself. Although I excelled in accounting, my passion has always been in tech. I completed Thinkful's coding bootcamp, and I am now seeking a new role as a Full-Stack Engineer.",
-  paragraphTwo: '',
+  paragraphTwo: 'Tech Stack: JavaScript, HTML5, CSS3, jQuery, React.js, Node.js, Express, PostgreSQL, Python (in progress)',
   paragraphThree: '',
   resume: 'https://docs.google.com/document/d/1AriRipcL6zxMwUjDRtIL9sEryuE1uKadrOANFQwv2d0/edit?usp=sharing', // if no resume, the button will not show up
 };
