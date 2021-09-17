@@ -53,6 +53,15 @@ export const projectsData = [
     url: 'https://project-flashcard-app.vercel.app/',
     repo: 'https://github.com/michaeltnvu/project_flashcard_app', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'lyrically.png',
+    title: 'Lyrically',
+    info: 'This is a lyric search application that simultaneously plays a youtube video of the song selected using two third-party APIs to communicate with each other. During the nationwide 2020 COVID lockdown, a friend of mine suffered from severe depression. I created this app for her to interact with, and it has since improved her personality tremendously.',
+    info2: 'Skills used: JavaScript, jQuery, HTML, and CSS',
+    url: 'https://michaeltnvu.github.io/lyrically/',
+    repo: 'https://github.com/michaeltnvu/lyrically', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
