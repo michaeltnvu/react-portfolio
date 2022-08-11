@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'profile.jpg',
   paragraphOne: "I graduated from San Jose State University in 2017 and became an accountant in the Silicon Valley. In 2019, my fiancée and I relocated to South Florida so that she could attend medical school. Although I excelled in accounting and finance, I decided to pursue a different career following the move across the country.",
   paragraphTwo: "I completed Thinkful's Software Engineer bootcamp, and I am now seeking a new role as a Full-Stack Developer. My goal is to continuously grow as a developer while staying current with the latest trends and technologies. I want to work for a passionate team that gets excited about their work and is not afraid to push boundaries.",
   paragraphThree: "Tools I use: HTML5, CSS3, JavaScript, jQuery, React, Gatsby.js, Styled Components, Git, Node.js, Express, and PostgreSQL.",
