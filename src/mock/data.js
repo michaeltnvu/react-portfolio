@@ -77,7 +77,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'http://linkedin.com/in/vutien',
+      url: 'http://linkedin.com/in/michaeltnvu',
     },
     {
       id: nanoid(),
@@ -89,5 +89,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
