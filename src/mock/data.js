@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: "Tien Vu's Portfolio",
+  title: "Michael Vu's Portfolio",
   lang: 'en',
   description: 'Welcome to my website', 
 };
@@ -10,15 +10,15 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Tien Vu',
-  subtitle: 'I am a Full-Stack Developer',
+  name: 'Michael Vu',
+  subtitle: 'I am a Software Engineer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: "I graduated from San Jose State University in 2017 and became an accountant in the heart of Silicon Valley. In 2019, my fiancée and I relocated to South Florida so that she could attend medical school. Although I excelled in accounting and finance, I decided to pursue a different career following the move across the country.",
+  paragraphOne: "I graduated from San Jose State University in 2017 and became an accountant in the Silicon Valley. In 2019, my fiancée and I relocated to South Florida so that she could attend medical school. Although I excelled in accounting and finance, I decided to pursue a different career following the move across the country.",
   paragraphTwo: "I completed Thinkful's Software Engineer bootcamp, and I am now seeking a new role as a Full-Stack Developer. My goal is to continuously grow as a developer while staying current with the latest trends and technologies. I want to work for a passionate team that gets excited about their work and is not afraid to push boundaries.",
   paragraphThree: "Tools I use: HTML5, CSS3, JavaScript, jQuery, React, Gatsby.js, Styled Components, Git, Node.js, Express, and PostgreSQL.",
   resume: 'https://docs.google.com/document/d/1Ib9_MVrKVBopGUR_Ixq8jn_eBywxBq-8iQo0tKJf83Q/edit?usp=sharing', // if no resume, the button will not show up
