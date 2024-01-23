@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '',
+    img: 'pathfindr.png',
     title: 'Pathfindrr',
     info: "A captivating full-stack social media app tailored for travel enthusiasts. With user authentication, Pathfindr ensures a secure and feature-rich environment. Users can embark on their journeys, sign up, log in, and explore the world of travel.",
     info2: 'Stack used: JavaScript, React.js, Express.js, Node.js, MongoDB, Tailwind CSS',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'tasktrove.png',
     title: 'Task Trove',
     info: "Developed a high-performing Single Page Application (SPA) using React and Bootstrap, offering a user-friendly kanban board experience. Task Trove seamlessly integrates a mock backend,enabling comprehensive CRUD operations.",
     info2: 'Stack used: JavaScript, React.js, Bootstrap',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'ironhacksamurai.png',
     title: 'Ironhack Samurai',
     info: "An engaging browser-based game combining the power of HTML, CSS, and JavaScript with the principles of Object-Oriented Programming (OOP).",
     info2: 'Stack used: JavaScript, HTML, CSS',
